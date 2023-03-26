@@ -55,7 +55,7 @@ for x in range(0, grid_res[0]):
 while True:
   animation_speed = 10
   speed_increment = 1
-  #This is not neccesary but it tried to add away to control the speed of the rain 
+  #This is not neccesary, I tried to add away to control the speed of the rain 
   #Does not work well, perhaps someone could figure it out
   for event in pygame.event.get():
       if event.type == KEYDOWN:
