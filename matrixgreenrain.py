@@ -63,7 +63,7 @@ while True:
               animation_speed += speed_increment
           elif event.key == K_DOWN:
               animation_speed -= speed_increment
-          elif event.keu == K_ESCAPE:
+          elif event.key == K_ESCAPE:
               sys.exit()
               
       for i in range(len(column_speeds)):
